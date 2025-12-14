@@ -1,1 +1,5 @@
 checkpoints/
+
+*.pth
+*.ckpt
+*.pt
