@@ -1,0 +1,23 @@
+FARNEBACK MULTI-CONFIG RESULTS
+---------------------------------
+
+Config: default
+Mean EPE: 11.4116
+Std  EPE: 18.5775
+Params: {'pyr_scale': 0.5, 'levels': 5, 'winsize': 15, 'iterations': 5, 'poly_n': 7, 'poly_sigma': 1.5, 'flags': 256}
+
+Config: larger_window
+Mean EPE: 10.2841
+Std  EPE: 17.5236
+Params: {'pyr_scale': 0.5, 'levels': 5, 'winsize': 40, 'iterations': 5, 'poly_n': 7, 'poly_sigma': 1.5, 'flags': 256}
+
+Config: more_pyramid_levels
+Mean EPE: 10.7318
+Std  EPE: 17.9307
+Params: {'pyr_scale': 0.5, 'levels': 8, 'winsize': 25, 'iterations': 5, 'poly_n': 7, 'poly_sigma': 1.5, 'flags': 256}
+
+Config: smooth_motion
+Mean EPE: 10.3669
+Std  EPE: 16.9183
+Params: {'pyr_scale': 0.3, 'levels': 6, 'winsize': 25, 'iterations': 7, 'poly_n': 9, 'poly_sigma': 1.7, 'flags': 0}
+

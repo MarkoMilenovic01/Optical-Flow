@@ -1,0 +1,5 @@
+Subset       : clean
+Model        : checkpoints/flownet_multi_best.pt
+Samples      : 1041
+Mean EPE     : 9.5479
+Std EPE      : 17.5059
